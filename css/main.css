@@ -345,6 +345,12 @@ input[type=button]{
   text-align: center;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
 /* Reviews */
 
 .reviews {
@@ -683,7 +689,7 @@ input[type=button]{
   }
 
   .mission-content p{
-    width: 45%;
+    width: 45.5%;
   }
 
   .map figure{
@@ -810,7 +816,7 @@ input[type=button]{
   }
 
   .map figure{
-    padding-bottom: 38%;
+    padding-bottom: 37.5%;
   }
 
   .contact-content h4 {
