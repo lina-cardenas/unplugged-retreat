@@ -248,7 +248,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* with flexbox the elements will be placed no need of paddings*/
+  width: 40px;
+  height: 40px;
+  background-color: #527158;
+  border-radius: 50%;
+} /* with flexbox the elements will be placed no need of paddings*/
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -671,6 +678,11 @@ input[type=button]{
 
   footer p{
     line-height: 1.285;
+  }
+
+  footer .social-icons{
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright{
