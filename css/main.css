@@ -103,6 +103,8 @@ body{
 ul,
 ol{
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a{
@@ -114,6 +116,7 @@ h2{
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -145,15 +148,6 @@ address{
   width: 90%;
   margin: 50px 0;
 }
-/* --------- Base Header - Footer styles ------------ */
-
-header,
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
 
 /* ---- Base Header - Footer styles ---- */
 
@@ -179,8 +173,6 @@ header .content-wrapper {
 }
 
 header figure {
-  background: url('img/unpluggedlogo.png') center no-repeat;
-  background-size: cover;
   width: 60%;
   display: flex;
   justify-content: center;
@@ -211,7 +203,6 @@ header nav ul {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  padding: 0;
 }
 
 header nav ul li {
@@ -266,8 +257,12 @@ footer .copyright {
 
 /* Hero Area */
 
+.content-wrapper {
+  margin: 10px 0;
+}
+
 .hero-area {
-  background: url(../img/unplugged-retreat.jpg) center no-repeat;
+  background: url(../img/unplugged-retreat.jpg) center;
   background-size: cover;
   min-height: 500px;
   display: flex;
@@ -281,7 +276,6 @@ footer .copyright {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500; 
   line-height: 1.2;
-  margin: 0; 
 }
 
 /* Aside */
@@ -323,9 +317,8 @@ input[type=button]{
 /* Features */
 
 .features {
-  background: url(../img/unplugged-features.jpg) center no-repeat;
+  background: url(../img/unplugged-features.jpg) center;
   background-size: cover;
-  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -355,7 +348,6 @@ input[type=button]{
 .features i {
   font-size: 3.75em;
   margin-bottom: 40px;
-  text-align: center;
 }
 
 /* Reviews */
@@ -449,8 +441,6 @@ input[type=button]{
 .faq-content h4 {
   line-height: 1.333;
 }
-
-
 
 /* ==========================================================================
    Helper classes
@@ -556,8 +546,8 @@ input[type=button]{
   }
 
   h3 {
-      font-size: 1.5em;
-      line-height: 1.25;
+    font-size: 1.5em;
+    line-height: 1.25;
   }
 
   /* Header*/
@@ -632,6 +622,10 @@ input[type=button]{
     width: 62%;
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
   /*Reviews*/
 
   .reviews article{
@@ -701,11 +695,11 @@ input[type=button]{
   }
 
   .mission-content p{
-    width: 45.5%;
+    width: 45%;
   }
 
   .map figure{
-    padding-bottom: 46%;
+    padding-bottom: 45.5%;
   }
 
   .contact-section .content-wrapper h2{
@@ -751,6 +745,7 @@ input[type=button]{
 
   .content-wrapper{
     max-width: 960px;
+    margin: 50px 0;
   } 
 
   header {
@@ -763,12 +758,12 @@ input[type=button]{
 
   h3,
   h4 {
-      font-size: 1.875em;
+    font-size: 1.875em;
   }
 
   p {
-      font-size: 1.125em;
-      line-height: 1.333;
+    font-size: 1.125em;
+    line-height: 1.333;
   }
 
   /* Hero Area*/
@@ -846,8 +841,8 @@ input[type=button]{
 
   .faq h4,
   .faq p {
-      font-size: 1.125em;
-      line-height: 1;
+    font-size: 1.125em;
+    line-height: 1;
   }
 
 }
